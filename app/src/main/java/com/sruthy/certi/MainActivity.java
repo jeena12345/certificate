@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity{
     //View Objects
     private Button buttonScan;
     private TextView textViewName, textViewAddress;
+    TextView txt;
+    TextView txt2;
+    TextView txt3;
 
     //qr code scanner object
     private IntentIntegrator qrScan;
@@ -28,7 +31,9 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+       txt=findViewById(R.id.phoneno);
+       txt2=findViewById(R.id.cert_url);
+     txt3=findViewById(R.id.reg_no);
         //View objects
 
 
